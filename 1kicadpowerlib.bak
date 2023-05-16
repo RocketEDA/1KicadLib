@@ -1,4 +1,43 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "+3.3V_SARA" (power) (in_bom no) (on_board no)
+    (property "Reference" "U" (id 0) (at -6.35 3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V_SARA" (id 1) (at 0 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+3.3V_SARA_0_1"
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0 0)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.635 1.27)
+          (xy 0 2.54)
+          (xy 0.635 1.27)
+        )
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "+3.3V_SARA_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+3.5V" (effects (font (size 1.27 1.27))))
+        (number "+3.5V" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
   (symbol "+3.5V" (power) (in_bom no) (on_board no)
     (property "Reference" "U" (id 0) (at -6.35 3.81 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -39,7 +78,7 @@
     )
   )
   (symbol "3.3V_SARA" (power) (pin_names (offset 0)) (in_bom no) (on_board no)
-    (property "Reference" "#PWR?" (id 0) (at -8.89 0 0)
+    (property "Reference" "#3.3V_SARA" (id 0) (at -8.89 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3.3V_SARA" (id 1) (at 0 3.175 0)
@@ -72,7 +111,7 @@
     )
     (symbol "3.3V_SARA_1_1"
       (pin power_in line (at 0 -1.27 90) (length 0) hide
-        (name "3.3V_SARA" (effects (font (size 1.27 1.27))))
+        (name "PWR_UNREG" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
