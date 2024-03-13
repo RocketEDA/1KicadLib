@@ -10,7 +10,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 04c93a4e-78f8-4ce8-93ea-aa8aec70a305)
   )
-  (fp_rect (start -0.26 -8.31) (end 15.315 0.48) (layer "F.Mask") (width 0.12) (fill solid) (tstamp a1ebb800-9b7f-4cda-89fd-4ec163398053))
+  (fp_rect (start -0.26 -8.29) (end 15.25 0.25) (layer "F.Mask") (width 0.001) (fill solid) (tstamp a1ebb800-9b7f-4cda-89fd-4ec163398053))
   (pad "1" smd custom (at 0 0) (size 0.1 0.1) (layers "F.Cu")
     (options (clearance outline) (anchor rect))
     (primitives
