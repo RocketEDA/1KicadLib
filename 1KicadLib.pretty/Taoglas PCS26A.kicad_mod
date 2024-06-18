@@ -1,55 +1,179 @@
-(footprint "Taoglas PCS26A" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 12.9 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e4b2c9e6-435c-4fc2-bf6f-4f432dfcee2e)
-  )
-  (fp_text value "Taoglas PCS26A" (at 0 1 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0251e9d2-2bae-4bcf-ad4d-bef6f45b1023)
-  )
-  (fp_text user "GROUND PLANE BELOW" (at 0 9.45 unlocked) (layer "Cmts.User")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 02b7b82e-f2bf-43dc-a665-79cc8740ecdc)
-  )
-  (fp_rect (start -27.65 10.85) (end 27.65 -7.85) (layer "B.CrtYd") (width 0.12) (fill none) (tstamp 2c259ac2-5f4e-4512-9dcb-33d565ab03dc))
-  (fp_rect (start 27.65 -7.85) (end -27.65 10.85) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp e5518fa7-ebf4-46a6-9e81-d70325912582))
-  (pad "1" smd custom (at 8.525 4.86) (size 2.45 2.86) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-          (xy -1.2 0)
-          (xy -1.2 5.67)
-          (xy 0 5.67)
-          (xy 0 0)
-        ) (width 0.01) (fill yes))
-    ) (tstamp 4dd1abd0-c448-41ea-bb5f-4a50be3be1fe))
-  (pad "2" smd custom (at 5.825 4.86) (size 1.95 2.86) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly (pts
-          (xy 0.975 0)
-          (xy 0.975 5.67)
-          (xy 0.475 5.67)
-          (xy 0.475 0)
-        ) (width 0.01) (fill yes))
-    ) (tstamp 2cf60bb7-7a98-46d9-a23d-75a52290895e))
-  (pad "3" smd trapezoid (at -25.15 0) (size 3 11.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 47e5b75d-a90c-4187-8717-7d85f7031e6d))
-  (pad "4" smd rect (at 25.15 0) (size 3 11.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2f2d6e39-d1ab-470c-8df7-ea54b65f48a4))
-  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 3bb92da3-a76e-48e0-9e02-82ab8764aad7) (hatch edge 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 27.65 -7.85)
-        (xy 27.65 10.85)
-        (xy -27.65 10.85)
-        (xy -27.65 -7.85)
-      )
-    )
-  )
+(footprint "Taoglas PCS26A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 12.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e4b2c9e6-435c-4fc2-bf6f-4f432dfcee2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Taoglas PCS26A"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0251e9d2-2bae-4bcf-ad4d-bef6f45b1023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b522946-c52a-46b5-95c9-61b60c9abc3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "293874ef-33aa-4870-b8bc-2d066ec89bcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3f34264-13f0-45be-b52c-b068f3e5b6aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -27.65 6.39)
+		(end 27.65 -7.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "2c259ac2-5f4e-4512-9dcb-33d565ab03dc")
+	)
+	(fp_rect
+		(start 27.65 -7.85)
+		(end -27.65 6.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e5518fa7-ebf4-46a6-9e81-d70325912582")
+	)
+	(fp_text user "GROUND PLANE BELOW"
+		(at 0 9.45 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "02b7b82e-f2bf-43dc-a665-79cc8740ecdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 8.525 4.86)
+		(size 2.45 2.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.2 0) (xy -1.2 5.67) (xy 0 5.67) (xy 0 0)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "4dd1abd0-c448-41ea-bb5f-4a50be3be1fe")
+	)
+	(pad "2" smd custom
+		(at 5.825 4.86)
+		(size 1.95 2.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.975 0) (xy 0.975 5.67) (xy 0.475 5.67) (xy 0.475 0)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "2cf60bb7-7a98-46d9-a23d-75a52290895e")
+	)
+	(pad "3" smd trapezoid
+		(at -25.15 0)
+		(size 3 11.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47e5b75d-a90c-4187-8717-7d85f7031e6d")
+	)
+	(pad "4" smd rect
+		(at 25.15 0)
+		(size 3 11.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2f2d6e39-d1ab-470c-8df7-ea54b65f48a4")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "3bb92da3-a76e-48e0-9e02-82ab8764aad7")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 27.65 -7.85) (xy 27.65 6.39) (xy -27.65 6.39) (xy -27.65 -7.85)
+			)
+		)
+	)
 )
