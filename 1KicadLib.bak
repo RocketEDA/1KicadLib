@@ -4174,15 +4174,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -10.16 12.446 0)
+			(at -5.08 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at -16.51 2.54 0)
+		(property "Value" "BQ25176"
+			(at -1.778 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4219,7 @@
 		(symbol "BQ25176_1_1"
 			(rectangle
 				(start -7.62 7.62)
-				(end 7.62 -7.62)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4229,7 +4229,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 2.54 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -4247,7 +4247,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -4265,7 +4265,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "TS"
 					(effects
@@ -4283,7 +4283,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -5.08 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4301,7 +4301,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -5.08 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "STAT"
 					(effects
@@ -4319,7 +4319,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -2.54 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "~{PG}"
 					(effects
@@ -4337,7 +4337,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 0 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VSET"
 					(effects
@@ -4355,7 +4355,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 2.54 180)
+				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -4365,6 +4365,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54) hide
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
