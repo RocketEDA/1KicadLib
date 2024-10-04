@@ -1,0 +1,109 @@
+(footprint "900V sparkgap"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5588 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "83dedcf0-5e4d-43d8-8407-17453ae71b1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "900V sparkgap"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2ff80ed-6c85-4ea6-a527-528612dfa412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9d023c2-faf1-457f-98ed-5e2a76a54e3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8590c72b-d625-4967-9d89-da162bcd6e69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17fbe288-bfc3-4537-bce3-d5615daeb86d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(pad "1" smd custom
+		(at -1.0664 0)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.016 0) (xy -0.508 -0.508) (xy -0.508 0.508)
+				)
+				(width 0.001)
+				(fill yes)
+			)
+		)
+		(uuid "c0f82d85-1af6-4e64-bbbd-68ada65a3be0")
+	)
+	(pad "2" smd custom
+		(at 1.0664 0 180)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.016 0) (xy -0.508 -0.508) (xy -0.508 0.508)
+				)
+				(width 0.0001)
+				(fill yes)
+			)
+		)
+		(uuid "50e9d8f5-8504-477c-8e9d-987ef13e1e68")
+	)
+)

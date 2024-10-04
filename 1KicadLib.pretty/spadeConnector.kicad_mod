@@ -1,0 +1,78 @@
+(footprint "spadeConnector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.11 -5.12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2e7e6d9f-f683-4532-9a99-4305d46c1c9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "spadeConnector"
+		(at 0.68 4.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "786ceb08-229f-4532-8c56-60ccff98addf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dfd39c3-25f1-4565-a479-0b2f363f8eac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdce256c-87e3-46b3-b9ac-df3933b051fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6acf43d8-5d6d-4926-9f63-160ddc2dd248")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 8 8)
+		(drill 6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b264b11-d725-4b04-ba04-04f242e542d0")
+	)
+)
