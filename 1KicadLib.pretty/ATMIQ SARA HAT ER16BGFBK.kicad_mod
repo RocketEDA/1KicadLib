@@ -1,4 +1,4 @@
-(footprint "ATMIQ SARA HAT ER10BGFBK"
+(footprint "ATMIQ SARA HAT ER16BGFBK"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ATMIQ SARA HAT ER10BGFBK"
+	(property "Value" "ATMIQ SARA HAT ER16BGFBK"
 		(at 0 6.35 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 2.54 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 2.54 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 2.54 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -127,8 +127,43 @@
 		(layer "F.CrtYd")
 		(uuid "fb163adb-99ae-4e3a-9537-2ee67c746eb9")
 	)
+	(fp_rect
+		(start -12.7 -2.54)
+		(end 12.7 16.51)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d4baa494-ca42-4889-9d96-ea15de5310e0")
+	)
+	(fp_circle
+		(center -14.518 56.73)
+		(end -9.518 56.73)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "71479af8-3bf4-40c4-bddb-9e23ff897b21")
+	)
+	(fp_text user "KEYSTONE 24883 STANDOFF HERE"
+		(at -25 50.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "59722f1b-471d-4b59-aeea-2e0b898aff8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" thru_hole circle
-		(at 8.89 -1.27)
+		(at -8.89 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -136,7 +171,7 @@
 		(uuid "d571c12c-ca43-48b1-87e5-cc506faf6388")
 	)
 	(pad "2" thru_hole circle
-		(at 8.89 3.81)
+		(at -8.89 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -144,7 +179,7 @@
 		(uuid "2e131f76-2a40-4a2a-8941-bb317dafdac7")
 	)
 	(pad "3" thru_hole circle
-		(at 6.35 -1.27)
+		(at -6.35 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -152,7 +187,7 @@
 		(uuid "aae92fc9-9c39-4832-9e55-beba23fe472e")
 	)
 	(pad "4" thru_hole circle
-		(at 6.35 3.81)
+		(at -6.35 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -160,7 +195,7 @@
 		(uuid "56c6829b-3d28-4a00-a52a-589c491a60b8")
 	)
 	(pad "5" thru_hole circle
-		(at 3.81 -1.27)
+		(at -3.81 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -168,7 +203,7 @@
 		(uuid "76d6a3b5-4790-45b7-bf1d-5c233470df12")
 	)
 	(pad "6" thru_hole circle
-		(at 3.81 3.81)
+		(at -3.81 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -176,7 +211,7 @@
 		(uuid "6e4dea27-4bc3-4542-9e44-394b7f46fb5f")
 	)
 	(pad "7" thru_hole circle
-		(at 1.27 -1.27)
+		(at -1.27 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -184,7 +219,7 @@
 		(uuid "d593977e-fc5c-49e3-9500-096adea958c3")
 	)
 	(pad "8" thru_hole circle
-		(at 1.27 3.81)
+		(at -1.27 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -192,7 +227,7 @@
 		(uuid "bb0729ef-42c5-49b5-95ce-cb7979d271ae")
 	)
 	(pad "9" thru_hole circle
-		(at -1.27 -1.27)
+		(at 1.27 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -200,7 +235,7 @@
 		(uuid "f359bbc4-fc6b-4a3a-9219-ca5583251b91")
 	)
 	(pad "10" thru_hole circle
-		(at -1.27 3.81)
+		(at 1.27 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -208,7 +243,7 @@
 		(uuid "23f59d41-cd4a-47be-bb9f-a09ee2fa5e9b")
 	)
 	(pad "11" thru_hole circle
-		(at -3.81 -1.27)
+		(at 3.81 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -216,7 +251,7 @@
 		(uuid "5a7549c5-1cda-425c-bef8-ed3e6dee973c")
 	)
 	(pad "12" thru_hole circle
-		(at -3.81 3.81)
+		(at 3.81 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -224,7 +259,7 @@
 		(uuid "ac95bb3e-3e29-4714-ae17-d3d434651a19")
 	)
 	(pad "13" thru_hole circle
-		(at -6.35 -1.27)
+		(at 6.35 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -232,7 +267,7 @@
 		(uuid "6a26ad2b-7f69-4840-81c7-180c9aada748")
 	)
 	(pad "14" thru_hole circle
-		(at -6.35 3.81)
+		(at 6.35 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -240,15 +275,7 @@
 		(uuid "9319b4e2-0cce-4463-8feb-4f9bff19edbc")
 	)
 	(pad "15" thru_hole circle
-		(at -14.518 56.73 270)
-		(size 6.2 6.2)
-		(drill 4.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "831bc912-9bd6-448c-8139-ce7d9992fce6")
-	)
-	(pad "15" thru_hole circle
-		(at -8.89 -1.27)
+		(at 8.89 3.81 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -256,7 +283,7 @@
 		(uuid "ea420db3-72f7-49da-bc50-fca16cda5192")
 	)
 	(pad "16" thru_hole circle
-		(at -8.89 3.81)
+		(at 8.89 -1.27 180)
 		(size 1.75 1.75)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
