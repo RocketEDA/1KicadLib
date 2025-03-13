@@ -1,0 +1,164 @@
+(footprint "1x05_wire2board"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.62 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "45cd3fba-86b3-4cb0-92ec-1c63e9f1338f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1x05_wire2board"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "501522ff-9c2c-4e83-bbc0-60a273e8a067")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b9de306-e6ce-4a9a-8bf8-90c46a317320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ab5e925-7963-4fac-b829-e043a916284f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f1363f0-c10c-4272-b287-8efc18732cde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.81 -1.524)
+		(end 19.05 6.604)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5e2c94e0-a071-46aa-b07e-53aff6e401a2")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 5)
+		(size 2.5 8)
+		(drill 1
+			(offset 0 -2.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "e4e983c2-a71b-4d63-a21b-156381f352e9")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.54 5)
+		(size 2.5 8)
+		(drill 1
+			(offset 0 -2.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "7b578dd8-3a83-45fd-a253-ba669a05560e")
+	)
+	(pad "3" thru_hole roundrect
+		(at 7.62 5)
+		(size 2.5 8)
+		(drill 1
+			(offset 0 -2.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "94e5a253-55e8-4ff3-ac6c-6c552128b278")
+	)
+	(pad "4" thru_hole roundrect
+		(at 12.7 5)
+		(size 2.5 8)
+		(drill 1
+			(offset 0 -2.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "b1f288be-7d1c-4077-8d61-f203b1cae7ef")
+	)
+	(pad "5" thru_hole roundrect
+		(at 17.78 5)
+		(size 2.5 8)
+		(drill 1
+			(offset 0 -2.5)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "8665e539-3601-48c9-a76a-dbcf6a9734f3")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "dbf0a850-7e4b-4f28-a5db-1221610e40c6")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 19.03 -1.5) (xy 19.03 6.5) (xy -3.79 6.5) (xy -3.79 -1.5)
+			)
+		)
+	)
+)
